@@ -1,0 +1,190 @@
+body,div,ul,ol,li,dl,dd,dt,a,span,img,input,label,p,h1,h2,h3,h4,h5,h6,table,tr,th,td,dd{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hiragino Sans GB','Microsoft Yahei';
+    font-size: 12px;
+}
+ul,ol,li{
+    list-style: none;
+}
+img,input{
+    border: none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: none;
+    height: 0;
+    line-height: 0;
+}
+.w1100{
+    margin: 0 auto;
+    width: 1104px;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: rgb(245,245,245);
+}
+.wrap{
+    margin: 0 auto 20px;
+    width: 854px;
+    padding-bottom: 50px;
+    background: #FFFFFF;
+}
+.wrap .code{
+    /*display: inline-block;*/
+    width: 68px;
+    height: 68px;
+    float: right;
+    background: url("../img/sprite_login.gif")no-repeat ;
+    opacity: 0.3;
+}
+.wrap .code:hover{
+    opacity: 1;
+}
+.top{
+    padding:50px 0 22px ;
+    width: auto;
+    height: 120px;
+    text-align: center;
+}
+.top .im{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+.top img{
+    text-align: center;
+}
+.top h4{
+    padding-top: 22px;
+    font-size: 30px;
+    color: #424242;
+    text-align: center;
+    font-weight: normal;
+}
+.center{
+    width: 100%;
+    height: 333px;
+    text-align: center;
+}
+.center input{
+    margin: 0 auto ;
+    padding: 12px 16px 12px 14px;
+    border: 1px solid #cccccc;
+    display: block;
+    width: 324px;
+    height: 22px;
+    line-height: 22px;
+}
+.center .inputA{
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.center .fgx{
+    height: 36px;
+}
+.center .inputC{
+    width: 358px;
+    height: 50px;
+    background-color: #ef5b00;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+.center i{
+    margin: 0 auto;
+    display: block;
+    height: 19px;
+    width: 358px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.center p{
+    position: relative;
+    top: 29px;
+    left: 42%;
+    width: 134px;
+    height: 19px;
+    font-size: 14px;
+    color: #b0b0b0;
+    background: #FFFFFF;
+}
+.center .on{
+    margin: 0 auto;
+    padding-top: 25px ;
+    width: 385px;
+    height: 43px;
+}
+.center .on a{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    background-color: #757575;
+    border-radius: 50px;
+
+    background-repeat: no-repeat;
+
+}
+.center .on a:hover{
+    background-color: #0ae;
+}
+.center .on .leftA{
+    margin-left: 125px;
+}
+.center .on span{
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 4px auto 0;
+    background-image: url("../img/icons_type.png");
+}
+.center .on .qq{
+    background-position: -19px 0;
+}
+.center .on .weibo{
+    background-position: -38px 0;
+}
+.center .on .pay{
+    background-position: -57px 0;
+}
+.bottom div{
+    padding-top: 30px;
+    height: 19px;
+   text-align: center;
+}
+.bottom div a{
+    font-size: 14px;
+    color: #757575;
+}
+.bottom div span{
+    padding:0 5px;
+    color: #e0e0e0;
+}
+.over{
+    text-align: center;
+}
+.over li{
+    display: inline-block;
+}
+.over li a{
+    margin: 0 10px;
+    color: #757575;
+}
+.police{
+    padding: 25px 0;
+    text-align: center;
+}
+.police a{
+    color: #757575;
+}
+
+
+
+
