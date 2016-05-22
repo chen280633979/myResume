@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/homepage.css" type="text/css"/>
     <link rel="stylesheet" href="ux_1462968087_811258/iconfont.css"/>
     <script type="text/javascript" src="js/utils.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/tween.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/zhufengEvent.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/jquery-1.11.3.min.js" charset="utf-8"></script>
     <!--<script type="text/javascript" src="js/homepage.js" charset="utf-8"></script>-->
@@ -80,7 +81,7 @@
             </div>
             </a></li>
             <li class="nav-A"><a href=""><span>红米</span>
-                <div class="nav-B" id="pos">
+                <div class="nav-B" >
                     <ul class="w1226">
                         <li class="first">
                             <div>
@@ -124,7 +125,7 @@
 
             </a></li>
             <li class="nav-A"><a href=""><span>平板</span>
-                <div class="nav-B">
+                <div class="nav-B" >
                     <ul class="w1226">
                         <li class="first">
                             <div>
@@ -172,7 +173,7 @@
                 </div>
             </a></li>
             <li class="nav-A"><a href=""><span>电视</span>
-                <div class="nav-B">
+                <div class="nav-B" >
                     <ul class="w1226">
                         <li class="first">
                             <div>
@@ -199,7 +200,7 @@
                 </div>
             </a></li>
             <li class="nav-A"><a href=""><span>盒子</span>
-                <div class="nav-B">
+                <div class="nav-B" >
                     <ul class="w1226">
                         <li class="first">
                             <div>
@@ -245,8 +246,8 @@
                     </ul>
                 </div>
             </a></li>
-            <li class="nav-A"><a href=""><span>智能硬件</span>
-                <div class="nav-B">
+            <li class="nav-A" ><a href=""><span>智能硬件</span>
+                <div class="nav-B" >
                     <ul class="w1226">
                         <li class="first">
                             <div>
@@ -298,43 +299,421 @@
                 <a href="javascript:;" class="bannerLeft"></a>
                 <a href="javascript:;" class="bannerRight"></a>
             </div>
-            <!--<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>-->
-            <!--<script type="text/javascript" src="js/homepage.js"></script>-->
+
             <div class="subNav">
-                <ul>
-                    <li>
-                        <a class="subNav-left" href="">手机 平板 电话卡 <i></i></a>
+                <ul class="subUl">
+                    <li class="subList">
+                        <a class="subNav-left" href="">手机 平板 电话卡 <i class="iconfont">&#xe60e;</i> </a>
+                        <div class="innerNav width">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                             <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                 <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                  <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul><ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                             <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                 <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                  <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                        <div class="innerNav">
+                    </li>
 
+                    <li class="subList">
+                        <a class="subNav-left" href="">电视 盒子 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav width">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul><ul>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                        </ul>
                         </div>
                     </li>
-                    <li>
-                        <a class="subNav-left" href="">电视 盒子 <i></i></a>
+                    <li class="subList ">
+                        <a class="subNav-left" href="">路由器 智能硬件 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav width">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul><ul>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                        </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="subNav-left" href="">路由器 智能硬件 <i></i></a>
+                    <li class="subList">
+                        <a class="subNav-left" href="">移动电源 插线板 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="subNav-left" href="">移动电源 插线板 <i></i></a>
+                    <li class="subList">
+                        <a class="subNav-left" href="">耳机 音箱 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav width">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul><ul>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                            <li class="pos">
+                                <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                <a class="innerNav-right" href="">选购</a>
+                            </li>
+                        </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="subNav-left" href="">耳机 音箱 <i></i></a>
+
+                    <li class="subList">
+                        <a class="subNav-left" href="">电池 存储卡 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="subNav-left" href="">电池 存储卡 <i></i></a>
+                    <li class="subList">
+                        <a class="subNav-left" href="">保护套 后盖 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="subNav-left" href="">保护套 后盖 <i></i></a>
+                    <li class="subList">
+                        <a class="subNav-left" href="">贴膜 其他配件 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="subNav-left" href="">贴膜 其他配件 <i></i></a>
+                    <li class="subList">
+                        <a class="subNav-left" href="">米兔 服装 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="subNav-left" href="">米兔 服装 <i></i></a>
-                    </li>
-                    <li>
-                        <a class="subNav-left" href="">箱包 其他周边 <i></i></a>
+                    <li class="subList">
+                        <a class="subNav-left" href="">箱包 其他周边 <i class="iconfont">&#xe60e;</i></a>
+                        <div class="innerNav">
+                            <ul>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                                <li class="pos">
+                                    <a class="innerNav-left" href="#"><img src="img/mi5bar80.jpg" alt=""/><span>小米手机5</span></a>
+                                    <a class="innerNav-right" href="">选购</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -363,13 +742,68 @@
                 <h2 class="title">小米明星单品</h2>
 
                 <div>
-                    <a class="title-left" href=""></a>
-                    <a class="title-right" href=""></a>
+                    <a class="title-left" href="javascript:;"></a>
+                    <a class="title-right" href="javascript:;"></a>
                 </div>
             </div>
 
-            <div class="banner2">
-                <ul class="bannerInner2">
+            <div class="banner2 w1226">
+                <ul class="bannerInner2" id="bannerInner2" >
+                    <li>
+                        <a href="">
+                            <img src="img/T1FOA.jpg" alt=""/>
+
+                            <h3>小米Note</h3>
+                        </a>
+
+                        <p class="HiFi">大屏旗舰，HiFi双卡双待</p>
+
+                        <p class="money">1499元起</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/T1FOA.jpg" alt=""/>
+
+                            <h3>小米Note</h3>
+                        </a>
+
+                        <p class="HiFi">大屏旗舰，HiFi双卡双待</p>
+
+                        <p class="money">1499元起</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/T1FOA.jpg" alt=""/>
+
+                            <h3>小米Note</h3>
+                        </a>
+
+                        <p class="HiFi">大屏旗舰，HiFi双卡双待</p>
+
+                        <p class="money">1499元起</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/T1FOA.jpg" alt=""/>
+
+                            <h3>小米Note</h3>
+                        </a>
+
+                        <p class="HiFi">大屏旗舰，HiFi双卡双待</p>
+
+                        <p class="money">1499元起</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/T1FOA.jpg" alt=""/>
+
+                            <h3>小米Note</h3>
+                        </a>
+
+                        <p class="HiFi">大屏旗舰，HiFi双卡双待</p>
+
+                        <p class="money">1499元起</p>
+                    </li>
                     <li>
                         <a href="">
                             <img src="img/T1FOA.jpg" alt=""/>
@@ -447,7 +881,7 @@
         <div>
             <a class="dengpao" href=""><img src="img/dengpao.jpg" alt=""/></a>
             <ul class="newThing">
-                <li class="list">
+                <li class="list pos">
                     <div class="newThing-one"><a href=""><img src="img/xaingji.jpg" alt=""/></a></div>
                     <h3 class="smallH3"><a href="">小蚁运动相机</a></h3>
 
@@ -465,7 +899,7 @@
 
                     <div class="hot">新品</div>
                 </li>
-                <li class="list">
+                <li class="list pos">
                     <div class="newThing-one"><a href=""><img src="img/xaingji.jpg" alt=""/></a></div>
                     <h3 class="smallH3"><a href="">小蚁运动相机</a></h3>
 

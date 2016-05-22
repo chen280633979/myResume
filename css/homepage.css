@@ -151,7 +151,7 @@ input{
     /*padding:26px 15px 38px;*/
     /*height: 88px;*/
 }
-.nav-A .nav-B{
+.nav-B{
     display: none;
     position: absolute;
     left: 0;
@@ -161,6 +161,9 @@ input{
     /*height: 230px;*/
     background: #FFFFFF;
     z-index: 8;
+}
+.navBg{
+    display: block;
 }
 .nav-A .nav-B ul li{
     float: left;
@@ -342,18 +345,9 @@ input{
 .pos{
     position: relative;
 }
-.subNav{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 0;
-    width: 234px;
-    height: 420px;
-    background: #333333;
-    background: rgba(0,0,0,0.6);
 
-    z-index: 4;
-}
+
+
 .subNav ul li .subNav-left{
     position: relative;
     display: block;
@@ -367,8 +361,8 @@ input{
     background: #ff6700;
 }
 .subNav ul li .subNav-left:hover i{
-    background: url("../img/jiantou.png") no-repeat center;
-    opacity: 0.6;
+    color: rgba(255,255,255,0.5);
+    opacity: 0.5;
 }
 .subNav ul li .subNav-left i{
     display: block;
@@ -377,7 +371,81 @@ input{
     top: 12px;
     width: 16px;
     height: 16px;
-    background: url("../img/jian.png") no-repeat center;
+    line-height: 16px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.5);
+}
+.subNav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    width: 234px;
+    height: 420px;
+    background: #333333;
+    background: rgba(0,0,0,0.6);
+    z-index: 4;
+}
+/*.subNav ul li .subNav-left:hover .innerNav{*/
+    /*display: block;*/
+/*}*/
+.innerNav{
+    display: none;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    width: auto;
+    height: 460px;
+    background:#FFFFff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 3px 3px 7px 0 #f0f0f0;
+}
+.width{
+    width: 795px;
+}
+.innerNavBg{
+    display: block;
+}
+.innerNav ul{
+    display: inline-block;
+    width: 265px;
+    padding: 2px 0;
+}
+.innerNav ul li{
+    width: 265px;
+    height: 76px;
+    line-height: 76px;
+}
+.innerNav ul li .innerNav-left{
+    padding: 18px 0 18px 20px ;
+    width: 170px;
+    height: 41px;
+}
+.innerNav ul li .innerNav-left:hover span{
+    color: #ff6700;
+}
+.innerNav ul li .innerNav-left img{
+    padding-right: 12px ;
+    width: 40px;
+    height: 40px;
+}
+.innerNav ul li .innerNav-left span{
+    font-size: 14px;
+}
+.innerNav ul li .innerNav-right{
+    position: absolute;
+    right: 10px;
+    top: 26px;
+    width: 60px;
+    height: 22px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    text-align: center;
+    line-height: 22px;
+}
+.innerNav ul li .innerNav-right:hover{
+    color: #FFFFff;
+    background: #ff6700;
 }
 
 /* ss*/
@@ -470,6 +538,7 @@ input{
 .mobile ul .cardA img{
     width: 100%;
     height: 100%;
+
 }
 
 /*top end*/
@@ -513,11 +582,17 @@ input{
     height: 16px;
     background: url("../img/you.png")no-repeat center;
 }
+.banner2{
+    overflow: hidden;
+}
 .banner2 .bannerInner2{
     position: relative;
+    left: 0;
+    top: 0;
     overflow: hidden;
     margin-bottom: 40px;
     height: 340px;
+    width: 2480px;
 }
 .banner2 .bannerInner2 li{
     float: left;
